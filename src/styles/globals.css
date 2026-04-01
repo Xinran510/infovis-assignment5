@@ -13,8 +13,9 @@
 html,
 body {
   max-width: 100vw;
-  overflow-x: hidden;
 }
+
+/* Avoid overflow-x: hidden on body — it can break <input type="range"> dragging in WebKit/Safari. */
 
 body {
   color: var(--foreground);
