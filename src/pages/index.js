@@ -1,2 +1,2 @@
 // Route "/" to the assignment page.
-export { default } from "./assignment5_Xinran";
+export { default } from "./assignment5_xinran";
